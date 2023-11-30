@@ -32,7 +32,7 @@ jobs:
 
       # 步骤4：使用npm action打包代码
       - name: 打包代码
-        run: npm run build
+        run: npm run docs:build
 
       # 步骤5：部署到github pages
       - name: 部署到github pages

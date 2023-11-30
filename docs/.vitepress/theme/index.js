@@ -1,8 +1,8 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import './styles/rainbow.css' // 先不用 好像得跟style.css写一块去
-import './styles/custom.scss' // 先不用 好像得跟style.css写一块去
+import './styles/rainbow.css'
+import './styles/custom.scss'
 import "./styles/site.scss"; // 网址导航页面样式
 
 import siteList from "../components/siteList.vue";

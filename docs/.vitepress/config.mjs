@@ -1,13 +1,14 @@
 import { defineConfig } from 'vitepress'
 import topNav from "./topNav/index.js";
 import {vitePressNote} from "./sideBar/vitePressBar.js";
+import {baseUrl} from "./base_url.js";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/vitepress-test/", // 设置github部署的路径，解决css样式失效问题
+  base: baseUrl, // 设置github部署的路径，解决css样式失效问题
   title: "Memorandum document",
   description: "备忘录文档",
-  outDir: './dist', // 打包目录
+  outDir: '../dist', // 打包目录
   // 获取每个文件最后一次 git 提交的 UNIX 时间戳(ms)，同时它将以合适的日期格式显示在每一页的底部
   // lastUpdated: true, // string | boolean
 

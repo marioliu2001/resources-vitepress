@@ -22,6 +22,7 @@
 <script setup>
 import { computed } from "vue";
 import { slugify } from "@mdit-vue/shared";
+console.log(import.meta.env.MODE)
 const props = defineProps({
   title: String,
   data: {
