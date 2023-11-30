@@ -66,7 +66,7 @@ const siteData = [
                 icon: "",
                 name: "ghs",
                 desc: "合集网",
-                link: "https://ghs2022.com/",
+                link: "https://ghsfby.com/",
             },
             {
                 icon: "",

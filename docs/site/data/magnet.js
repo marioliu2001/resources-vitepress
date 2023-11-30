@@ -37,13 +37,13 @@ const siteData = [
                 icon: "",
                 name: "老王磁力",
                 desc: "老王磁力",
-                link: "laowangju.top",
+                link: "https://golaowang.top/",
             },
             {
                 icon: "",
                 name: "吴签磁力网站",
                 desc: "这个内容搜的多",
-                link: "https://wuqianhu.top/",
+                link: "https://gowuqian.top/",
             },
             {
                 icon: "",
