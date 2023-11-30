@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@mdit-vue/shared": "^1.0.0",
+    "sass": "^1.69.5",
+    "vitepress": "^1.0.0-rc.29",
+    "vue": "^3.3.8"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "docs:deploy": "sh script/deploy.sh",
+    "pub": "sh script/publish.sh"
+  },
+  "dependencies": {
+    "element-plus": "^2.4.2"
+  }
+}
