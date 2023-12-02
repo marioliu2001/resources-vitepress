@@ -38,7 +38,7 @@ export default defineConfig({
     // 站点页脚配置
     footer: {
       message: "只教有用的",
-      copyright: "Copyright © 2023-present Echo",
+      copyright: "Copyright © 1992-present Echo",
     },
 
     outlineTitle: "本页目录", // 右侧边栏配置，默认值是"On this page"

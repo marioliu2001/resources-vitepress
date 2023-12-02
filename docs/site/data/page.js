@@ -53,6 +53,12 @@ const siteData = [
             },
             {
                 icon: "",
+                name: "2048",
+                desc: "2048发布页",
+                link: "https://0csu3.com/",
+            },
+            {
+                icon: "",
                 name: "待完善",
                 desc: "待完善",
                 link: "",
