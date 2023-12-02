@@ -13,6 +13,11 @@
           <span class="num">{{ index + 1 }}</span>
           <h4 class="name">{{ v.name }}</h4>
           <p class="desc">{{ v.desc }}</p>
+          <el-rate v-if="v.rate" class="rate" v-model="v.rate" size="small"
+                   show-score
+                   score-template="{value} "
+                   text-color="#f7ba2a"
+                   disabled />
         </a>
       </li>
     </ul>
@@ -22,7 +27,6 @@
 <script setup>
 import { computed } from "vue";
 import { slugify } from "@mdit-vue/shared";
-console.log(import.meta.env.MODE)
 const props = defineProps({
   title: String,
   data: {
@@ -55,7 +59,7 @@ const createTitle = computed(() => {
     padding-left: 0;
     .item {
       width: 212px;
-      margin: 15px 15px 0 0px;
+      margin: 15px 15px 0 0;
       background: #fff;
       position: relative;
       .link {
@@ -93,6 +97,15 @@ const createTitle = computed(() => {
           height: 36px;
           line-height: 18px;
           @include single-ellipsis;
+        }
+        .rate{
+          position: absolute;
+          right: 10px;
+          bottom: 4px;
+          :deep(.el-rate__text){
+            padding-top: 1px;
+            font-size: 12px;
+          }
         }
         &:hover {
           text-decoration: none;
