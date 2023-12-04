@@ -5,6 +5,7 @@ export default [
             { text: "优质好站", link: "/site/page" },
             { text: "磁力网站", link: "/site/magnet" },
             { text: "我的网站", link: "/site/myself" },
+            { text: "知名片商", link: "/site/producer" },
         ],
     },
     {
