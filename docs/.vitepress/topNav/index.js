@@ -11,8 +11,8 @@ export default [
     {
         text: "技术笔记",
         items: [
-            { text: "标题筛选", link: "/note/标题筛选" },
-            { text: "收藏UU", link: "/note/收藏优优" },
+            { text: "标题筛选", link: "/note/title-filtering" },
+            { text: "收藏UU", link: "/note/collect-actress" },
             { text: "PikPak废弃小号", link: "/note/PikPak废弃小号" },
         ],
     },
@@ -20,5 +20,5 @@ export default [
         text: "关于我们",
         link: "/about/page",
     },
-    { text: "更新日志", link: "" },
+    { text: "更新日志", link: "/changelog/CHANGELOG" },
 ];

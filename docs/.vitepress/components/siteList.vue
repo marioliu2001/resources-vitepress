@@ -22,11 +22,13 @@
       </li>
     </ul>
   </section>
+  <el-backtop :right="45" :bottom="120" />
 <!--  <BackTop></BackTop>-->
 </template>
 <script setup>
-import { computed } from "vue";
+import {computed} from "vue";
 import { slugify } from "@mdit-vue/shared";
+
 const props = defineProps({
   title: String,
   data: {
@@ -50,7 +52,9 @@ const createTitle = computed(() => {
 }
 .site-section {
   .title {
-    color: #222;
+    //color: #222;
+    // 随着主题变化
+    color: var(--vp-c-text-1);
   }
   .list {
     display: flex;
@@ -60,7 +64,8 @@ const createTitle = computed(() => {
     .item {
       width: 212px;
       margin: 15px 15px 0 0;
-      background: #fff;
+      // 让背景颜色随着主题变化
+      //background: #fff;
       position: relative;
       .link {
         width: 210px;
