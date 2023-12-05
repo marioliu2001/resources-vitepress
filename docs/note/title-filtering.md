@@ -8,7 +8,7 @@
 
 在文档库的设置中，启用标题筛选功能。
 
-![启用标题筛选](images/title-filtering/enable-title-filtering.png)
+![启用标题筛选](../public/logo.png)
 
 ## 筛选器
 
