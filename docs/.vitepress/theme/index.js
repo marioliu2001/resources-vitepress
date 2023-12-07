@@ -6,8 +6,9 @@ import './styles/custom.scss'
 import "./styles/site.scss"; // 网址导航页面样式
 
 import siteList from "../components/siteList.vue";
+import videoList from "../components/videoList.vue";
 import siteFooter from "../components/siteFooter.vue";
-import {ElRate,ElBacktop } from 'element-plus'
+import {ElRate,ElBacktop,ElImage,ElSpace} from 'element-plus'
 import 'element-plus/dist/index.css'
 
 /** @type {import('vitepress').Theme} */
@@ -25,6 +26,9 @@ export default {
     // 注册ElementPlus
     app.use(ElRate)
     app.use(ElBacktop)
+    app.use(ElImage)
+    app.use(ElSpace)
     app.component("SiteList", siteList)
+    app.component("videoList", videoList)
   }
 }

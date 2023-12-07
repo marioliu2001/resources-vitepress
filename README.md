@@ -1,11 +1,14 @@
-# 已完成
+## 暂停开发
+- 详情见CHANGELOG.md
+
+## 已完成
 * 样式重置
 * 基本内容填写
 * element-plus & sass
 * 自定义组件 (avatar头像 & home组件)
 * deplo.sh自动化部署脚本
 
-# 待完善
+## 待完善
 * 待增加
 
 # vitePress-project

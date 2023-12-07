@@ -11,6 +11,12 @@ const siteData = [
             },
             {
                 icon: "",
+                name: "DMM官网",
+                desc: "需要日本节点",
+                link: "https://www.dmm.co.jp/",
+            },
+            {
+                icon: "",
                 name: "待完善",
                 desc: "待完善",
                 link: "",

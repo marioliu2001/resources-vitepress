@@ -6,6 +6,7 @@ export default [
             { text: "磁力网站", link: "/site/magnet" },
             { text: "我的网站", link: "/site/myself" },
             { text: "知名片商", link: "/site/producer" },
+            // { text: "test", link: "/site/test" }, 开发阶段 暂不使用
         ],
     },
     {
