@@ -1,6 +1,6 @@
 {
   "name": "memorandum-document-vitepress",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "备忘录文档",
   "devDependencies": {
     "@mdit-vue/shared": "^1.0.0",
