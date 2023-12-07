@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,R as r}from"./chunks/framework.ehnMiT7s.js";const f=JSON.parse('{"title":"访问官网","description":"","frontmatter":{},"headers":[],"relativePath":"guide/start.md","filePath":"guide/start.md"}'),o={name:"guide/start.md"},s=r("",3),i=[s];function n(_,c,d,h,l,u){return e(),t("div",null,i)}const p=a(o,[["render",n]]);export{f as __pageData,p as default};
