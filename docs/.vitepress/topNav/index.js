@@ -6,7 +6,7 @@ export default [
             { text: "磁力网站", link: "/site/magnet" },
             { text: "我的网站", link: "/site/myself" },
             { text: "知名片商", link: "/site/producer" },
-            // { text: "test", link: "/site/test" }, 开发阶段 暂不使用
+            // { text: "test", link: "/site/test" }, // 开发阶段 暂不使用
         ],
     },
     {
@@ -17,6 +17,14 @@ export default [
             { text: "PikPak废弃小号", link: "/note/PikPak废弃小号" },
         ],
     },
+    // {
+    //     text: "可视化",
+    //     items: [
+    //         { text: "爬虫数据", link: "/visual/" },
+    //         { text: "数据统计", link: "/note/collect-actress" },
+    //         { text: "", link: "/note/PikPak废弃小号" },
+    //     ],
+    // },
     {
         text: "关于我们",
         link: "/about/page",

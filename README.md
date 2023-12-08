@@ -7,6 +7,7 @@
 * element-plus & sass
 * 自定义组件 (avatar头像 & home组件)
 * deplo.sh自动化部署脚本
+* 自动生成侧边栏github地址(已安装未使用)：https://github.com/jooy2/vitepress-sidebar
 
 ## 待完善
 * 待增加

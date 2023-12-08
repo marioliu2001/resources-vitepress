@@ -1,10 +1,14 @@
 import { defineConfig } from 'vitepress'
 import topNav from "./topNav/index.js";
-import {vitePressNote, titleFiltering, collectActress} from './sideBar/index.js'
+import {vitePressNote, titleFiltering, collectActress, spiderData} from './sideBar/index.js'
 import {baseUrl} from "./base_url.js";
+import { generateSidebar } from 'vitepress-sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    plugins: []
+  },
   base: baseUrl, // 设置github部署的路径，解决css样式失效问题
   title: "Memorandum document",
   description: "备忘录文档",
@@ -14,7 +18,9 @@ export default defineConfig({
 
   head: [
     // 添加图标
-    ['link', { rel: 'icon', href: '/vite.svg' }]
+    // ['link',{ rel: 'icon', href: '/logo.png'}], //部署到根目录
+    // ['link',{ rel: 'icon', href: '/vitepress/logo.png'}], //部署到vitepress仓库
+    ['link', { rel: 'icon', href: `${baseUrl}vite.svg` }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -34,7 +40,16 @@ export default defineConfig({
     sidebar: {
       "/note/vitePress": vitePressNote, // 示例
       "/note/title-filtering": { base: '/note/title-filtering/', items: titleFiltering },
-      "/note/collect-actress": { base: '/note/collect-actress/', items: collectActress }
+      "/note/collect-actress": { base: '/note/collect-actress/', items: collectActress },
+      "/visual/": { base: '/visual/', items: spiderData },
+    },
+
+    // 基本配置
+    darkModeSwitchLabel: '切换主题',
+    sidebarMenuLabel: '菜单',
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
     },
 
     // 编辑链接

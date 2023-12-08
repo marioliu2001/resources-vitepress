@@ -5,9 +5,7 @@ pageClass: site-layout
 <videoList :data="videoData" />
 <script setup>
 // 网址导航页面的数据
-// import videoData from "./data/这个是八抓鱼直接保存的.json";
-// import videoData from "./data/[焱焱] 声音满分·娇喘声·呻吟声·喊叫声.json";
-import videoData from "./data/宍戸里帆.json";
+import videoData from "../visual/json/妃光莉, 妃ひかり.json";
 </script>
 
 <style>
