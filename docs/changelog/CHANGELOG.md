@@ -3,6 +3,8 @@
 * 🏠style(settings): 添加git cz提交格式规范 ([a532358](https://github.com/marioliu2001/resources-vitepress/commit/a532358))
 * 🐛fix: 解决md中为找到img图片导致打包失败 ([f5a4a52](https://github.com/marioliu2001/resources-vitepress/commit/f5a4a52))
 * 🐛fix: 修复暗黑主题下title的颜色\&优化\&backTop功能 ([8a24bc6](https://github.com/marioliu2001/resources-vitepress/commit/8a24bc6))
+* 🐛fix: 修复站点图标问题 ([7a1f877](https://github.com/marioliu2001/resources-vitepress/commit/7a1f877))
+* 📝docs: 更新changelog.md ([b5dbbcf](https://github.com/marioliu2001/resources-vitepress/commit/b5dbbcf))
 * 🚀feat: 增加MD网址,增加变更日志,爬虫内容展示页面(dev) ([aa05ea7](https://github.com/marioliu2001/resources-vitepress/commit/aa05ea7))
 * feat:更新项目配置 ([7656e93](https://github.com/marioliu2001/resources-vitepress/commit/7656e93))
 * first commit ([7724a97](https://github.com/marioliu2001/resources-vitepress/commit/7724a97))
